@@ -14,4 +14,3 @@ An example record looks like the following:
   "theater_id": 3,
   "is_showing": false
 }
-```
