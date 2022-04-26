@@ -10,14 +10,14 @@ app.use(express.json());
 app.use(cors());
 
 app.use("/movies", moviesRouter);
-app.use("/reviews", reviewsRouter);
 app.use("/theaters", theatersRouter);
+app.use("/reviews", reviewsRouter);
 
-//not found handler
+//Not Found Handler
 const notFound = require("./errors/notFound");
 app.use(notFound);
 
-//error handler
+//Error Handler
 const errorHandler = require("./errors/errorHandler");
 app.use(errorHandler);
 

@@ -17,15 +17,15 @@ function read(req, res) {
 }
 
 function update(req, res, next) {
-    const updatedReview = {
-      ...req.body.data,
-      review_id: res.locals.review.review_id,
-    };
-    service
-      .update(updatedReview)
-      .then((data) => res.json({ data }))
-      .catch(next);
-  }
+  const updatedReview = {
+    ...req.body.data,
+    review_id: res.locals.review.review_id,
+  };
+  service
+    .update(updatedReview)
+    .then((data) => res.json({ data }))
+    .catch(next);
+}
 
 async function destroy(req, res) {
   const { review } = res.locals;
