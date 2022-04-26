@@ -2,7 +2,7 @@
 
 A PostgreSQL database of movies, theaters, and reviews created with node, knex and express.
 
-[Try It Out](https://nameless-bayou-69619.herokuapp.com/https://nameless-bayou-69619.herokuapp.com/)
+[Try It Out](https://nameless-bayou-69619.herokuapp.com/)
 
 ## Installation Instructions
 1. Fork & Clone repository
