@@ -4,6 +4,7 @@ A PostgreSQL database of movies, theaters, and reviews created with node, knex a
 
 [Try It Out](https://peaceful-atoll-63047.herokuapp.com/)
 
+[Live Demo](https://starter-movie-front-end-phi.vercel.app/)
 ## Installation Instructions
 1. Fork & Clone repository
 2. Run `npm install`
